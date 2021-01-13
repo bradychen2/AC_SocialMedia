@@ -1,0 +1,89 @@
+.navbar-brand {
+  border: black solid;
+  border-radius: 5%;
+  cursor: pointer !important;
+}
+
+.nav-item .nav-link{
+  cursor: pointer !important;
+}
+
+#tool-bar {
+  background-color: #f7e7da;
+  border-radius: 2%;
+}
+
+.user-avatar {
+  cursor: pointer;
+  border-radius: 50%;
+  transition: border-radius 0.1s;
+}
+
+.user-avatar:hover {
+  border-radius: 0%;
+}
+
+#data-panel .card {
+  opacity: 0.8;
+  background-color: #f7e7da;
+}
+
+#data-panel .card:hover {
+  opacity: 1.0;
+}
+
+body {
+  background-image: url("https://i1.wp.com/www.codeofliving.com/wp-content/uploads/2019/10/friendship-quotes.jpg?w=1920&ssl=1");
+  background-size: cover;
+}
+
+i {
+  cursor: pointer;
+}
+
+.list-group-item {
+  opacity: 0.8;
+  background-color: #f7e7da;
+}
+
+.list-group-item:hover {
+  opacity: 1.0;
+}
+
+.list-group-item img {
+  max-height: 6em;
+
+}
+
+.dropdown-menu {
+  opacity: 0.9;
+  background-color:  #f7e7da;
+}
+
+.page-link {
+  opacity: 0.9;
+  background-color: #f7e7da;
+  color: #000000;
+}
+
+.page-link:hover {
+  opacity: 1.0;
+}
+
+#user-modal-title, #user-modal-email {
+  font-weight: bold;
+}
+
+.modal-header {
+  background-color: #f7e7da;
+  border-color: #ff8d30;
+}
+
+.modal-footer {
+  background-image: linear-gradient(315deg,#ffffff,#f7e7da);
+  border-color: #ff8d30;
+}
+
+.modal-body {
+  background-image: linear-gradient(315deg,#ffffff,#f7e7da);
+}
